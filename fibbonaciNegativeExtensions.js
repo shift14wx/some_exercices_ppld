@@ -11,7 +11,7 @@
  * @param x integer
  * @returns {number[]|*[]}
  */
-function fibneg(x) {
+function fibonacci(x) {
     // # if zero then return zero
     if (x === 0) {
         return [0];
@@ -91,4 +91,4 @@ function fibneg(x) {
     return fibonacciFullRangeSequence;
 }
 
-console.log(fibneg(-5).join("\n"));
+console.log(fibonacci(-5).join("\n"));

@@ -11,4 +11,4 @@ function findIndex(str,pttr){
     return indexes;
 }
 
-console.log(findIndex("carlos carlos","rl"));
+console.log(findIndex("main street street street","ree"));
